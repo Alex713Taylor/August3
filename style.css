@@ -18,14 +18,14 @@ html{
 
 
 
-
-html,body { height: 100%;}
-
-body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+#mainformdiv{
+    display:grid;
+    grid-template-areas: ". . menu" ". form .";
 }
+form{
+    grid-area: form;
+}
+
 
 input[type="radio"]{
 	appearance: none;
