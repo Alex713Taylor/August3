@@ -1,10 +1,10 @@
-const form = document.querySelector('form');
-form.addEventListener('submit',handleSubmit);
 
-async function handleSubmit(event) {
-    event.preventDefault();
+const form = document.getElementById("dateForm");
 
-    const data = new FormData(event.target);
+form.addEventListener("submit",async (e)=>{
+  e.preventDefault();
+
+    const data = new FormData(e.target);
 
    const value = Object.fromEntries(data.entries());
 
@@ -17,4 +17,5 @@ async function handleSubmit(event) {
   }
 });
     form.reset();
-  }
+});
+
