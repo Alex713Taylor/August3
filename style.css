@@ -197,11 +197,7 @@ justify-self: center;
 grid-area: 13/3/14/4;
 }
 
-#done{
-    margin-top: 25px;
-    place-self: center;
-    grid-area: 14/1/15/4;
-}
+
 button{
     
     color: white;
