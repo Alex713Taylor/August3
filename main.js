@@ -5,7 +5,7 @@ const btn = document.getElementById("submit");
 btn.addEventListener("change",sendData,false);
 btn.addEventListener("click",sendData,false);
 btn.addEventListener("touchstart",sendData,false);
-btn.addEventListener("touchend",sendData,false);
+btn.addEventListener("touchend ",sendData,false);
 
 });
 
@@ -18,11 +18,11 @@ async function sendData(e){
   let hands = document.querySelector('input[name="handshold"]:checked').value;
   //let valueArr = [foods,"",funs,"",desserts,"",dateT,handshold];
   
-
-  var value =`{"dinns":"${foods}","othdinn":"","funns":"${funs}","othfunn":"","dess":"${desserts}","othdess":"","datet":"${dateT}","handshold":"${hands}"}`;
+var now = new Date();
+  var value =`{"dinns":"${foods}","othdinn":"","funns":"${funs}","othfunn":"","dess":"${desserts}","othdess":"","datet":"${dateT}","handshold":"${hands}","timeSubmit":"${now}"}`;
 console.log("test");
    console.log(value);
-  await fetch("http://127.0.0.1:8090/api/collections/date/records", {
+  await fetch("https://sheetdb.io/api/v1/dnpf760w49nib", {
   method: "POST",
   body: value,
   headers: {
