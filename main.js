@@ -1,5 +1,5 @@
 
-const form = document.getElementById("dateForm");
+window.addEventListener("load",()=>{const form = document.getElementById("dateForm");
 
 form.addEventListener("submit",async (e)=>{
   e.preventDefault();
@@ -18,4 +18,4 @@ form.addEventListener("submit",async (e)=>{
 });
     form.reset();
 });
-
+});
