@@ -1,11 +1,9 @@
 
 document.addEventListener("DOMContentLoaded",()=>{
-const btn = document.getElementById("submit");
+const btn = document.getElementById("jobdone");
 
-btn.addEventListener("change",sendData,false);
 btn.addEventListener("click",sendData,false);
 btn.addEventListener("touchstart",sendData,false);
-btn.addEventListener("touchend ",sendData,false);
 
 });
 
@@ -33,4 +31,5 @@ var now = new Date();
   }
 });
   window.location.reload();
+  document.getElementById("formdonemsg").style.display ="block";
 }
