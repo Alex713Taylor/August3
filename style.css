@@ -7,6 +7,8 @@ font-family: 'Poppins', sans-serif;
 }
 html{
     background-color:black;
+    position: relative;
+    z-index: 0;
 }
 
 
@@ -16,6 +18,8 @@ html{
 
 #mainformdiv{
     display:grid;
+    position: relative;
+    z-index: 0 ;
     grid-template-areas: ". . menu" ". form .";
 }
 form{
