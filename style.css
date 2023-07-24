@@ -331,6 +331,7 @@ button{
 }
 #pros{
     font-weight: bolder;
+    margin-top: 25px;
     grid-area: pros;
     background-color: palevioletred;
     font-size: larger;
@@ -339,6 +340,7 @@ button{
 #cons{
     font-weight: bolder;
     grid-area: cons;
+    margin-top: 25px;
     background-color: palevioletred;
     place-self: center;
     font-size: larger;
