@@ -22,7 +22,7 @@ console.log("test");
   }
 });
   window.location.reload();
-});
+},false);
 btn.addEventListener("touchstart",async (e)=>{
   e.preventDefault();
   let foods = document.querySelector('input[name="dinns"]:checked').value;
@@ -44,4 +44,4 @@ console.log("test");
   }
 });
   window.location.reload();
-});
+},false);
