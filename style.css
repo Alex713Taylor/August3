@@ -198,15 +198,7 @@ grid-area: 13/3/14/4;
 }
 
 
-#submit{
-    position: relative;
-    
-    height:7em;
-    z-index: 99;
-    color: white;
-    border-color: white;
-    background-color: #fe2c54;
-}
+
 
 
 #gridcontain{
@@ -503,3 +495,12 @@ img {
     font-weight: bold;
 }
   
+#submit{
+    position: relative;
+    
+    height:7em;
+    z-index: 99;
+    color: white;
+    border-color: white;
+    background-color: white;
+}
