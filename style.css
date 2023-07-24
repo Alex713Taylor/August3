@@ -195,7 +195,7 @@ grid-area: 13/3/14/4;
 
 
 button{
-    
+    position: relative;
     
     height:3em;
     z-index: 99;
