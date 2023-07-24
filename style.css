@@ -498,9 +498,7 @@ img {
 #submit{
     position: relative;
     
-    height:7em;
+    
     z-index: 99;
-    color: white;
-    border-color: white;
-    background-color: white;
+    
 }
