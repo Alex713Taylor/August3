@@ -370,7 +370,7 @@ button{
     grid-template-rows: 1fr 1fr 8fr;
 }
 
-#picGrid{
+.picGrid{
     grid-area: 3/1/4/4;
     display:grid;
     grid-template-columns: repeat(auto-fit,24em);
