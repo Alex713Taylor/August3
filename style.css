@@ -198,10 +198,10 @@ grid-area: 13/3/14/4;
 }
 
 
-button{
+input[type="submit"]{
     grid-area: 14/2/15/3;
     position: relative;
-    height:4em;
+    height:3em;
     color: white;
     border-color: white;
     background-color: #fe2c54;
