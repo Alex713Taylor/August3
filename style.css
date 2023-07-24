@@ -333,7 +333,7 @@ grid-area: 13/3/14/4;
 #picGrid{
     grid-area: 3/1/4/4;
     display:grid;
-    grid-template-columns: repeat(auto-fit,15em);
+    grid-template-columns: repeat(auto-fit,24em);
     place-content: center;
     gap:.75em;
      
