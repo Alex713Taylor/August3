@@ -1,7 +1,15 @@
 
+document.addEventListener("DOMContentLoaded",()=>{
 const btn = document.getElementById("submit");
 
-btn.addEventListener("change",async (e)=>{
+btn.addEventListener("change",sendData,false);
+btn.addEventListener("click",sendData,false);
+btn.addEventListener("touchstart",sendData,false);
+btn.addEventListener("touchend",sendData,false);
+
+});
+
+async function sendData(e){
   e.preventDefault();
   let foods = document.querySelector('input[name="dinns"]:checked').value;
   let funs = document.querySelector('input[name="funns"]:checked').value;
@@ -22,7 +30,4 @@ console.log("test");
   }
 });
   window.location.reload();
-},false);
-
-
-
+}
