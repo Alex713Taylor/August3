@@ -58,11 +58,15 @@ input[type="radio"]:checked {
 		outline-color: #fe2c54;
 	}
 }
+#mainformdiv{
+    clear:both;
+}
 
 #dateForm{
     display: grid;
     grid-template-columns: 133px 133px 133px;
     grid-template-rows: 50px;
+    clear: both;
     
 }
 #dindin{
