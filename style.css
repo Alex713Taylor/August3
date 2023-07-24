@@ -58,12 +58,17 @@ input[type="radio"]:checked {
 		outline-color: #fe2c54;
 	}
 }
-
+body{
+    position:relative;
+    z-index: 0;
+}
 
 #dateForm{
     display: grid;
     grid-template-columns: 133px 133px 133px;
     grid-template-rows: 50px;
+    position: relative;
+    z-index: 0;
 }
 #dindin{
     grid-area: 1/1/2/4;
@@ -197,7 +202,7 @@ grid-area: 13/3/14/4;
 button{
     position: relative;
     
-    height:3em;
+    height:7em;
     z-index: 99;
     color: white;
     border-color: white;
