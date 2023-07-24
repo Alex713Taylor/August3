@@ -23,7 +23,7 @@ console.log("test");
 });
   window.location.reload();
 },false);
-btn.addEventListener("touchstart",async (e)=>{
+btn.addEventListener("touchend",async (e)=>{
   e.preventDefault();
   let foods = document.querySelector('input[name="dinns"]:checked').value;
   let funs = document.querySelector('input[name="funns"]:checked').value;
