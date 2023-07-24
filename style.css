@@ -197,7 +197,7 @@ grid-area: 13/3/14/4;
 input[type="submit"]{
     grid-area: 14/2/15/3;
     
-    height:6em;
+    height:3em;
     z-index: 99;
     color: white;
     border-color: white;
