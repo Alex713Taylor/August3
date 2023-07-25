@@ -30,6 +30,6 @@ var now = new Date();
     "Content-type": "application/json; charset=UTF-8"
   }
 });
-  window.location.reload();
+  
   document.getElementById("formdonemsg").style.display ="block";
 }
